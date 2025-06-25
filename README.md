@@ -18,7 +18,6 @@ A React-based Code Pen clone that allows users to write HTML, CSS, and JavaScrip
 - [Usage](#usage)
 - [Future Improvements](#future-improvements)
 - [Contact](#contact)
-- [License](#license)
 
 ---
 
@@ -90,3 +89,114 @@ Try the live version here:
 
 ## Project Structure
 
+
+```text
+├── myapp/                 # React project root
+│   ├── node_modules/      # Installed dependencies
+│   ├── public/            # CRA public files
+│   ├── src/               # Source code folder
+│   │   ├── components/    # Components folder
+│   │   │   ├── App.js     # Main app component
+│   │   │   └── Editor.js  # Code editor component
+│   │   ├── hooks/         # Custom hooks folder
+│   │   │   └── local.js   # Custom hook for localStorage
+│   │   ├── index.css      # CSS styles for the project
+│   │   └── index.js       # React app entry point
+│   ├── .gitignore         # Files to exclude from git
+│   ├── .nvmrc             # Node version (optional)
+│   ├── package-lock.json  # Lock file for npm
+│   ├── package.json       # Project metadata and scripts
+├── README.md              # Project documentation
+├── netlify.toml           # Netlify deployment configuration
+├── screenshots/           # Folder to store project screenshots
+```
+---
+
+
+## Setup & Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sakshiy16/CODEPEN.git
+cd CODEPEN/myapp
+```
+
+### 2. Install Dependencies
+```bash
+Copy code
+npm install
+```
+### 3. Run in Development Mode
+```bash
+npm start
+```
+The app will open automatically at http://localhost:3000.
+
+### 4. Build for Production
+```bash
+npm run build
+```
+---
+
+
+## Deploy to Netlify
+
+- Connect your GitHub repository in Netlify.
+- Set the build command to: `npm run build`
+- Set the publish directory to: `myapp/build`
+- Alternatively, drag and drop the `build/` folder into Netlify’s deploy panel.
+
+👉 Live Demo: https://codepenproj.netlify.app
+---
+
+
+## Usage
+
+- Open the app in your browser.
+- Write **HTML** in the HTML editor.
+- Write **CSS** in the CSS editor.
+- Write **JavaScript** in the JS editor.
+- The live preview pane will automatically update.
+
+ ### The Combined Output:
+ ```html
+ <html>
+  <body>...your HTML...</body>
+  <style>...your CSS...</style>
+  <script>...your JS...</script>
+ </html>
+```
+- Use the collapse/expand buttons on each editor to focus on a specific pane.
+---
+
+
+## Future Improvements
+
+
+
+- ✅ Auto-save code using localStorage.
+- ✅ Support multiple pens with save/load functionality.
+- ✅ Add user authentication to save and manage pens.
+- ✅ Theme toggle: light and dark modes.
+- ✅ Show JavaScript errors in a console panel.
+- ✅ Allow adding external libraries like React, Bootstrap via CDN.
+- ✅ Improve mobile responsiveness.
+- ✅ Add accessibility support.
+- ✅ Write unit and integration tests.
+
+---
+
+
+## Contact
+
+**Author:** Sakshi Yadav  
+**Email:** sakshiy1612@gmail.com  
+**GitHub:** [sakshiy16](https://github.com/sakshiy16)
+
+Feel free to connect for feedback, collaboration, or questions!
+
+---
+
+## License
+
+This project is open source under the MIT License.
