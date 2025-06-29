@@ -1,4 +1,4 @@
-# CodePen
+# CodeCraft
 
 A React-based Code Pen clone that allows users to write HTML, CSS, and JavaScript in separate panels and see a live preview in real-time. Built as a front-end portfolio project to demonstrate editor integration, state management, and live preview rendering.
 
