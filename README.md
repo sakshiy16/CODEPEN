@@ -117,8 +117,8 @@ Try the live version here:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sakshiy16/CODEPEN.git
-cd CODEPEN/myapp
+git clone https://github.com/sakshiy16/CodeCraft.git
+cd CodeCraft/myapp
 ```
 
 ### 2. Install Dependencies
